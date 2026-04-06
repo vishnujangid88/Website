@@ -3,60 +3,60 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { X, ZoomIn, ChevronLeft, ChevronRight } from 'lucide-react'
 
-// Gallery data - replace the `src` with actual images
+// Gallery data - local images in public/gallery
 const galleryImages = [
   {
     id: 1,
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80',
+    src: '/gallery/scrap-yard.png',
     alt: 'Scrap metal yard overview',
     caption: 'Our Partner Recycling Yard',
     category: 'Facility',
   },
   {
     id: 2,
-    src: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80',
+    src: '/gallery/copper-scrap.png',
     alt: 'Copper scrap materials',
     caption: 'Copper Scrap Processing',
     category: 'Materials',
   },
   {
     id: 3,
-    src: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80',
-    alt: 'Metal recycling operations',
-    caption: 'Recycling Operations',
+    src: '/gallery/electric-motors.png',
+    alt: 'Electric motor scrap',
+    caption: 'Electric Motor Scrap',
     category: 'Operations',
   },
   {
     id: 4,
-    src: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80',
+    src: '/gallery/container-loading.png',
     alt: 'Container loading for export',
     caption: 'Container Loading & Export',
     category: 'Logistics',
   },
   {
     id: 5,
-    src: 'https://images.unsplash.com/photo-1590846083693-f23fdede3a7e?w=800&q=80',
+    src: '/gallery/aluminum-sorting.png',
     alt: 'Aluminum scrap sorting',
     caption: 'Aluminum Scrap Sorting',
     category: 'Materials',
   },
   {
     id: 6,
-    src: 'https://images.unsplash.com/photo-1567789884554-0b844b597180?w=800&q=80',
+    src: '/gallery/shipping-port.png',
     alt: 'Global shipping operations',
     caption: 'Global Shipping Network',
     category: 'Logistics',
   },
   {
     id: 7,
-    src: 'https://images.unsplash.com/photo-1605556448750-4e7b2e1a7d81?w=800&q=80',
+    src: '/gallery/warehouse.png',
     alt: 'Scrap metal warehouse',
     caption: 'Storage & Warehousing',
     category: 'Facility',
   },
   {
     id: 8,
-    src: 'https://images.unsplash.com/photo-1551135049-8a33b5883817?w=800&q=80',
+    src: '/gallery/quality-inspection.png',
     alt: 'Quality inspection process',
     caption: 'Quality Inspection',
     category: 'Operations',
