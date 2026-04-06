@@ -99,6 +99,17 @@ export default function Contact() {
                   <p className="text-white font-semibold group-hover:text-indigo-300 transition-colors">www.indigoscrapmetal.com</p>
                 </div>
               </a>
+
+              {/* Address */}
+              <a href="https://www.google.com/maps/search/4512+Legacy+Drive+100+Plano+Texas+75024" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-rose-500/20 to-rose-600/20 flex items-center justify-center shrink-0 group-hover:from-rose-500/30 group-hover:to-rose-600/30 transition-all duration-300">
+                  <MapPin className="w-5 h-5 text-rose-400" />
+                </div>
+                <div>
+                  <p className="text-slate-500 text-sm">Address</p>
+                  <p className="text-white font-semibold group-hover:text-indigo-300 transition-colors leading-snug">4512 Legacy Drive 100,<br />Plano, Texas 75024</p>
+                </div>
+              </a>
             </div>
           </motion.div>
 

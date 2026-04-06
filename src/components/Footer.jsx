@@ -1,4 +1,4 @@
-import { Phone, Mail, Globe, ArrowUpRight } from 'lucide-react'
+import { Phone, Mail, Globe, MapPin, ArrowUpRight } from 'lucide-react'
 
 const footerLinks = {
   'Quick Links': [
@@ -49,6 +49,10 @@ export default function Footer() {
               <a href="https://www.indigoscrapmetal.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-indigo-300 text-sm transition-colors">
                 <Globe className="w-4 h-4" />
                 www.indigoscrapmetal.com
+              </a>
+              <a href="https://www.google.com/maps/search/4512+Legacy+Drive+100+Plano+Texas+75024" target="_blank" rel="noopener noreferrer" className="flex items-start gap-2 text-slate-400 hover:text-indigo-300 text-sm transition-colors">
+                <MapPin className="w-4 h-4 shrink-0 mt-0.5" />
+                <span>4512 Legacy Drive 100, Plano, Texas 75024</span>
               </a>
             </div>
           </div>
